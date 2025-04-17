@@ -16,7 +16,7 @@ jobs:
     - name: Build the site
       run: |
         mkdir _site
-        cp -a *.js *.html qmacro/ _site/
+        cp -a *.css *.js *.html qmacro/ _site/
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
   deploy:
